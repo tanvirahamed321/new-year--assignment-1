@@ -1,7 +1,8 @@
 *{
-   margin: 0;
-   padding: 0;
+  margin: 0;
+  padding: 0;
 }
+
 body{
   
   font-family: "Merriweather Sans" sans-serif;
@@ -11,7 +12,7 @@ body{
    /* Starting from here Banner section 1  */
 }
 header{
- 
+ padding: 0px;
 }
 header p{
    
@@ -30,24 +31,56 @@ header h1{
    text-align: center;
    font-size: 65px;
 }
+.section-b-1{
+  /* border: 2px solid #F00; */
+  padding:30px;
+  
+  
+}
 .banner-section-1{
    color:#FFF;;
    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("resources/Banner\ Image.png");
    background-repeat: no-repeat;
    background-size: cover;
    background-position: bottom center;
-   width: 1320px;
-   height: 600px;
-   margin: 30px auto;
-   border-radius: 16px;
+   width: 1220px;
+   height: 500px;
+   margin: 30px;
+   border-radius: 16px; 
+  }  
    
-}
-.banner-text{
+
+.banner-text-1{
   padding: 200px;
 }
 
  /* Starting from here Banner section 2  */
 
- .b-1{
-   margin-top: 100px;
- }
+
+.section-b-2{
+  /* border: 2px solid green; */
+  margin: 100px 60px;
+  text-align: center;
+  padding: 100px; 
+  
+}
+ 
+
+.section-b-2-text{
+ /* border: 3px solid rgb(0, 8, 255); */
+}
+.section-b-2 .s1{
+ 
+  color: #F00;
+  font-size: 88px;
+}
+.section-b-2 .s2{
+   
+  color: #F00;
+  font-size: 20px;
+}
+.section-b-2 .s3{
+  color: #070211;
+  font-size: 35px;
+}
+
