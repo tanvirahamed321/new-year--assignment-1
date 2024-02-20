@@ -194,3 +194,25 @@ header h1{
 
 /* Starting from here main section 2  */
 
+.main-section-2{
+  margin-top: 40px;
+  border: 3px solid tomato;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+.m-2-text{
+  text-align: center;
+  
+}
+.ho-1{
+  color: #F00;
+  font-size: 70px;
+}
+.ho-2{
+  color: #070211;
+}
+
+/* Starting from here main section 3  */
