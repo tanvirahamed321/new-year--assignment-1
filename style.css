@@ -1,7 +1,7 @@
-*{
+/* *{
   margin: 0;
   padding: 0;
-}
+} */
 
 body{
   
@@ -66,7 +66,7 @@ header h1{
 }
  
 
-.section-b-2-text{
+.section-b-2-text0{
  /* border: 3px solid rgb(0, 8, 255); */
 }
 .section-b-2 .s1{
@@ -83,4 +83,76 @@ header h1{
   color: #070211;
   font-size: 35px;
 }
+ /* Starting from here Banner section 3  */
+.section-b-3{
+ 
+  /* margin: 50px; */
+  border: 3px solid #F00 ;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url("resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  width: 1220px;
+  height: 500px;
+  margin: 30px;
+  border-radius: 16px; 
+}
+.section-b-3-container{
+  padding: 30px;
+  display: flex;
+ justify-content: space-around;
+ align-items:center;
+}
+.section-b-3 .s4{
+  font-size: 43px;
+  color: #FFF;
+}
+.section-b-3 .s5{
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.80);
 
+
+}
+.section-b-3 .s6{
+  font-size: 16px;
+}  
+  
+
+ /* Starting from here Banner section 4  */
+
+ .section-b-4{
+  margin-top: 40px;
+  padding: 40px;
+
+  width: 1200px;
+  height: 300px;
+  /* border: 4px solid #070211; */
+  text-align: center;
+  justify-content: center;
+  
+
+
+ }
+ .section-b-4-text{
+  /* border: 2px solid green; */
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  padding: 70px;
+  text-align: center;
+  justify-content: center;
+ }
+ .section-b-4-text .s7{
+  color: #F00;
+  font-size: 32px;
+ }
+ .section-b-4-text .s8{
+  color: black;
+  font-size: 32px;
+ }
+ .b-4-btn{
+  border: none;
+  border-radius: 5px;
+  background: #F00;
+  padding: 10px 20px;
+ font-size: 15px;
+ color: #FFF;
+ }
